@@ -1,11 +1,21 @@
 /* UTILITIES */
-
 ul li , ol li { list-style-type: none; } 
 a { text-decoration: none; }
 .br-25 { border-radius: 25px; }
 .text-big {font-size: 2.8rem;}
+.text-small {font-size: 1.2rem;}
+img {width: 100%;}
 /* ------------------------------------------- */
-/* HEADER AND NAVBAR */
+
+
+/* TOPBAR HEADER AND NAVBAR */
+
+.topbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
 
 header .logo { width: 150px; }
 nav ul li a {
@@ -35,6 +45,7 @@ nav ul li a::after {
     background-size: cover;
     width: 100%;
     min-height: 70vh;
+    margin-top: 8rem;
 }
 
 .jumbo img {
@@ -51,3 +62,12 @@ nav ul li a::after {
 }
 
 /* ------------------------------------------ */
+
+
+/* PS5 SECTION */
+
+.ps5-img {
+    max-width: 600px;
+}
+
+
