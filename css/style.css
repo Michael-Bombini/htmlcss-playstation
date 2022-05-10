@@ -5,6 +5,8 @@ a { text-decoration: none; }
 .text-big {font-size: 2.8rem;}
 .text-small {font-size: 1.2rem;}
 img {width: 100%;}
+.mw-50ch {max-width: 50ch;}
+.bg-dark {background-color: #1F1F1F;}
 /* ------------------------------------------- */
 
 
@@ -80,5 +82,23 @@ nav ul li a::after {
     z-index: 0;
 
 }
+
+
+/* ------------------------------------------ */
+
+
+/* BANNER SECTION */
+
+.banner {
+    background-image : url("../img/it-takes-two-hero-banner-desktop.jpg");
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    min-height: 600px;
+}
+
+.banner img {width: 250px;}
+
+/* ------------------------------------------ */
 
 
