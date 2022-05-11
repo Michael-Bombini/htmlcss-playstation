@@ -47,12 +47,17 @@ nav ul li a::after {
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    min-height: 70vh;
+    padding-top: 300px;
+    padding-bottom: 150px;
     margin-top: 8rem;
 }
 
 .jumbo img {
     max-width: 400px;
+}
+
+.jumbo p {
+    max-width: 80ch;
 }
 
 /* ------------------------------------------ */
@@ -83,9 +88,7 @@ nav ul li a::after {
 
 }
 
-
 /* ------------------------------------------ */
-
 
 /* BANNER SECTION */
 
@@ -94,7 +97,8 @@ nav ul li a::after {
     width: 100%;
     background-size: cover;
     background-position: center;
-    min-height: 600px;
+    padding-top: 250px;
+    padding-bottom: 100px;
 }
 
 .banner img {width: 250px;}
@@ -102,3 +106,5 @@ nav ul li a::after {
 /* ------------------------------------------ */
 
 
+/* EXPLORE PS4 SECTION */
+/* ------------------------------------------ */
