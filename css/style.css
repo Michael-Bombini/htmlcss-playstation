@@ -7,6 +7,8 @@ a { text-decoration: none; }
 img {width: 100%;}
 .mw-50ch {max-width: 50ch;}
 .bg-dark {background-color: #1F1F1F;}
+.btn-danger {background: #CD3D0F;}
+
 
 
 /* ------------------------------------------- */
@@ -155,17 +157,20 @@ nav ul li a::after {
 /* NO CSS STYLES */
 /* ------------------------------------------ */
 
-footer {
-    background: #00439c;
-}
 
-.footer-logo {
-    width: 100px;
-}
+/* FOOTER*/
+
+footer {background: #00439c;}
+
+.footer-logo {width: 100px;}
 
 
-.globe {
-    width: 40px;
-}
-
+.globe {width: 30px; }
+.globe + span {vertical-align: top;}
 .sie-logo {width: 150px;}
+
+footer a {color: #fff;}
+.info-f {text-decoration: underline;}
+
+/* ------------------------------------------ */
+
