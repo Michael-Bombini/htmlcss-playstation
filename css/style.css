@@ -154,3 +154,18 @@ nav ul li a::after {
 
 /* NO CSS STYLES */
 /* ------------------------------------------ */
+
+footer {
+    background: #00439c;
+}
+
+.footer-logo {
+    width: 100px;
+}
+
+
+.globe {
+    width: 40px;
+}
+
+.sie-logo {width: 150px;}
