@@ -238,8 +238,6 @@ ol li img {
 nav ul li:hover .dropdown  {
     display: block;
     background: #fff;
-    left: 0;
-    right: 0;
     width: 100vw;
     height: 300px;
 }
