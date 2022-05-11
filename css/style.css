@@ -8,7 +8,7 @@ img {width: 100%;}
 .mw-50ch {max-width: 50ch;}
 .bg-dark {background-color: #1F1F1F;}
 .btn-danger {background: #CD3D0F;}
-.h-220px {min-height: 220px;}
+.h-240px {min-height: 240px;}
 
 
 /* ------------------------------------------- */
@@ -191,7 +191,7 @@ footer a {color: #fff;}
 }
 
 
-.h-220px:hover {
+.h-240px:hover {
     border-bottom: 2px solid #1e90ff;
 }
 
@@ -221,3 +221,25 @@ footer a {color: #fff;}
 
 /* ------------------------------------------ */
 
+/* DROPDOWN BONUS  */
+nav ul li {
+    position: relative;
+}
+.dropdown {
+    display: none;
+    position: absolute;
+    
+}
+
+ol li img {
+    width: 150px;
+}
+
+nav ul li:hover .dropdown  {
+    display: block;
+    background: #fff;
+    left: 0;
+    right: 0;
+    width: 100vw;
+    height: 300px;
+}
