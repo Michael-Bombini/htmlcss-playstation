@@ -8,7 +8,7 @@ img {width: 100%;}
 .mw-50ch {max-width: 50ch;}
 .bg-dark {background-color: #1F1F1F;}
 .btn-danger {background: #CD3D0F;}
-
+.h-220px {min-height: 220px;}
 
 
 /* ------------------------------------------- */
@@ -154,7 +154,7 @@ nav ul li a::after {
 
 /* SOCIAL SECTION */
 
-/* NO CSS STYLES */
+.social {cursor: pointer;}
 /* ------------------------------------------ */
 
 
@@ -171,6 +171,53 @@ footer {background: #00439c;}
 
 footer a {color: #fff;}
 .info-f {text-decoration: underline;}
+
+/* ------------------------------------------ */
+
+
+/* HOVER EFFECTS */
+
+.card-game img {transition: transform 0.6s ease   ;  padding: 0.1rem;}
+.card-game:hover img {
+    transform: translateY(-25px) ;
+    transition: transform 0.6s ease  ;
+    border: 3px solid #1e90ff;
+}
+
+.device {transition: opacity 0.5s ease; cursor: pointer;}
+.device:hover {
+    opacity: 1;
+    transition: opacity 0.5s ease;
+}
+
+
+.h-220px:hover {
+    border-bottom: 2px solid #1e90ff;
+}
+
+.btn {
+    position: relative;
+}
+
+.btn:hover::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    border: 2px solid #fff;
+    border-radius: 25px;
+}
+
+.btn.btn-danger:hover::after {
+    border: 2px solid #000;
+}
+
+
+
+
+
 
 /* ------------------------------------------ */
 
