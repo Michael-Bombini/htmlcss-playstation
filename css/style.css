@@ -232,12 +232,15 @@ nav ul li {
 }
 
 ol li img {
-    width: 150px;
+    width: 120px;
 }
 
 nav ul li:hover .dropdown  {
-    display: block;
+    display: flex;
+    justify-content: center;
+    gap: 8rem;
     background: #fff;
     width: 100vw;
     height: 300px;
 }
+/* ------------------------------------------ */
