@@ -132,8 +132,8 @@ nav ul li a::after {
     left: 50%;
     bottom: 0;
     height: 100%;
-    width: auto;
-    object-fit: cover;
+    width: 375px;
+
 
 
 }
